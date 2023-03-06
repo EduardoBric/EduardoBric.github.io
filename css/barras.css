@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(39, 39, 39);
+}
+
+.caja-padre{
+    width: 40%;
+    min-width: 590px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%; 
+}
+
+.contenedor{
+    width: 100%;
+    padding: 30px 30px 50px;
+    background: linear-gradient(450deg,rgb(255, 9, 214),rgb(144, 0, 173));
+    border: 2px solid rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.02);
+    backdrop-filter: blur(10px);
+}
+
+.contenedor *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+h2{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.detalles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.menu{
+    position: relative;
+    border: 1px solid pink;
+    border-radius: 20px;
+}
+
+.menu div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+#html-menu{
+    animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra{
+    100%{
+        width: 90%;
+    }
+}
+
+#css-menu{
+    animation: css-barra 2s forwards;
+}
+
+@keyframes css-barra{
+    100%{
+        width: 60%;
+    }
+}
+
+#js-menu{
+    animation: js-barra 2s forwards;
+}
+
+@keyframes js-barra{
+    100%{
+        width: 75%;
+    }
+}
+
+#dj-menu{
+    animation: dj-barra 2s forwards;
+}
+
+@keyframes dj-barra{
+    100%{
+        width: 75%;
+    }
+}
+
+#NJS-menu{
+    animation: njs-barra 2s forwards;
+}
+
+@keyframes njs-barra{
+    100%{
+        width: 60%;
+    }
+}
+
+#brn-menu{
+    animation: brn-barra 2s forwards;
+}
+
+@keyframes brn-barra{
+    100%{
+        width: 85%;
+    }
+}
+
+#ux-menu{
+    animation: ux-barra 2s forwards;
+}
+
+@keyframes ux-barra{
+    100%{
+        width: 80%;
+    }
+}
+
+#com-menu{
+    animation: com-barra 2s forwards;
+}
+
+@keyframes com-barra{
+    100%{
+        width: 85%;
+    }
+}
+
+#ges-menu{
+    animation: ges-barra 2s forwards;
+}
+
+@keyframes ges-barra{
+    100%{
+        width: 75%;
+    }
+}
+
+#gtw-menu{
+    animation: gtw-barra 2s forwards;
+}
+
+@keyframes gtw-barra{
+    100%{
+        width: 75%;
+    }
+}
+
+#fnl-menu{
+    animation: fnl-barra 2s forwards;
+}
+
+@keyframes fnl-barra{
+    100%{
+        width: 60%;
+    }
+}
+
+#vmk-menu{
+    animation: vmk-barra 2s forwards;
+}
+
+@keyframes vmk-barra{
+    100%{
+        width: 75%;
+    }
+}
+
+#dt-menu{
+    animation: dt-barra 2s forwards;
+}
+
+@keyframes dt-barra{
+    100%{
+        width: 75%;
+    }
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: rgb(252, 252, 252);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem rgb(65, 0, 218);
+    font-size: 1.6rem;
+    color: #353535;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.btn:hover{
+    box-shadow: none;
+}
